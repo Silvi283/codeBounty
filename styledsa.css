@@ -1,0 +1,128 @@
+/* Global Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #181825; /* Dark Purple-Blue Background */
+    color: white;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #1E1E2E; /* Same as Dashboard */
+    padding: 10px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #FFD700;
+}
+
+/* First Line - Logo & Profile */
+.navbar-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 5px;
+}
+
+.logo {
+    color: #FFD700;
+    font-size: 26px;
+}
+
+.logo span {
+    color: #E6C200;
+}
+
+.profile {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.profile i {
+    margin-right: 8px;
+}
+
+/* Second Line - Navigation Links */
+.navbar-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    border-top: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.navbar-bottom a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-bottom a i {
+    margin-right: 8px;
+}
+
+.navbar-bottom a:hover {
+    color: #FFD700;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 280px;
+    background: linear-gradient(to bottom, #252535, #1E1E2E);
+    padding: 20px;
+    color: white;
+    box-shadow: 3px 0 10px rgba(0, 0, 0, 0.2);
+    transition: width 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #FFD700;
+    font-weight: bold;
+}
+
+/* Sidebar Buttons */
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.sidebar ul li {
+    background: rgba(255, 215, 0, 0.15);
+    padding: 12px;
+    margin: 8px 0;
+    text-align: center;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: 0.3s ease-in-out;
+    color: #FFD700;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidebar ul li i {
+    margin-right: 10px;
+}
+
+.sidebar ul li:hover {
+    background-color: rgba(255, 215, 0, 0.3);
+    transform: scale(1.05);
+}
